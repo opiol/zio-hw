@@ -1,0 +1,3 @@
+[submodule "zbop-klibs"]
+	path = zbop-klibs
+	url = git@github.com:opiol/zbop-klibs
