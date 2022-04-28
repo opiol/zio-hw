@@ -1,5 +1,5 @@
-771-MCIMX6X2CVN08AC
-	https://www.nxp.com/products/processors-and-microcontrollers/arm-processors/i-mx-applications-processors/i-mx-6-processors/i-mx-6solox-processors-heterogeneous-processing-with-arm-cortex-a9-and-cortex-m4-cores:i.MX6SX
-	
-870-43T16256B125KBLI
-340-371016-REEL
+1 MC32PF3001A1EP			NXP Power Management Specialized - PMIC
+1 MC34PF1550A4EP			NXP Power Management Specialized - PMIC
+1 MT29F4G08ABAFAWP-IT:F TR		Micron Technology NAND Flash
+2 S43TR16256B-125KBLI			ISSI DRAM
+1 MCIMX6X2CVN08AC			NXP Microprocessors - MPU
