@@ -31,7 +31,109 @@
                   <coreID>ca9</coreID>
                </options>
                <dependencies/>
-               <pins/>
+               <pins>
+                  <pin peripheral="CCM" signal="pmic_vstby_req" pin_num="P15" pin_signal="CCM_PMIC_STBY_REQ"/>
+                  <pin peripheral="CCM" signal="ccm_clk2" pin_num="R15" pin_signal="CCM_CLK2"/>
+                  <pin peripheral="CCM" signal="ccm_clk1_p" pin_num="R16" pin_signal="CCM_CLK1_P"/>
+                  <pin peripheral="CCM" signal="ccm_clk1_n" pin_num="P16" pin_signal="CCM_CLK1_N"/>
+                  <pin peripheral="SRC" signal="src_boot_mode1" pin_num="U19" pin_signal="BOOT_MODE1"/>
+                  <pin peripheral="SRC" signal="src_boot_mode0" pin_num="U20" pin_signal="BOOT_MODE0"/>
+                  <pin peripheral="ADC1" signal="in1" pin_num="W14" pin_signal="ADC1_IN1"/>
+                  <pin peripheral="MMDC" signal="dram_addr14" pin_num="R4" pin_signal="DRAM_ADDR14"/>
+                  <pin peripheral="MMDC" signal="dram_addr13" pin_num="M4" pin_signal="DRAM_ADDR13"/>
+                  <pin peripheral="MMDC" signal="dram_addr12" pin_num="P4" pin_signal="DRAM_ADDR12"/>
+                  <pin peripheral="MMDC" signal="dram_addr11" pin_num="N4" pin_signal="DRAM_ADDR11"/>
+                  <pin peripheral="MMDC" signal="dram_addr10" pin_num="N5" pin_signal="DRAM_ADDR10"/>
+                  <pin peripheral="MMDC" signal="dram_addr09" pin_num="L5" pin_signal="DRAM_ADDR09"/>
+                  <pin peripheral="MMDC" signal="dram_addr08" pin_num="M5" pin_signal="DRAM_ADDR08"/>
+                  <pin peripheral="MMDC" signal="dram_addr07" pin_num="F4" pin_signal="DRAM_ADDR07"/>
+                  <pin peripheral="MMDC" signal="dram_addr06" pin_num="T4" pin_signal="DRAM_ADDR06"/>
+                  <pin peripheral="MMDC" signal="dram_addr05" pin_num="G4" pin_signal="DRAM_ADDR05"/>
+                  <pin peripheral="MMDC" signal="dram_addr04" pin_num="M3" pin_signal="DRAM_ADDR04"/>
+                  <pin peripheral="MMDC" signal="dram_addr00" pin_num="L4" pin_signal="DRAM_ADDR00"/>
+                  <pin peripheral="MMDC" signal="dram_addr01" pin_num="U4" pin_signal="DRAM_ADDR01"/>
+                  <pin peripheral="MMDC" signal="dram_addr02" pin_num="K5" pin_signal="DRAM_ADDR02"/>
+                  <pin peripheral="MMDC" signal="dram_data00" pin_num="R1" pin_signal="DRAM_DATA00"/>
+                  <pin peripheral="MMDC" signal="dram_data01" pin_num="T2" pin_signal="DRAM_DATA01"/>
+                  <pin peripheral="MMDC" signal="dram_data02" pin_num="T1" pin_signal="DRAM_DATA02"/>
+                  <pin peripheral="MMDC" signal="dram_data03" pin_num="R2" pin_signal="DRAM_DATA03"/>
+                  <pin peripheral="MMDC" signal="dram_data04" pin_num="M1" pin_signal="DRAM_DATA04"/>
+                  <pin peripheral="MMDC" signal="dram_data05" pin_num="M2" pin_signal="DRAM_DATA05"/>
+                  <pin peripheral="MMDC" signal="dram_data06" pin_num="L2" pin_signal="DRAM_DATA06"/>
+                  <pin peripheral="MMDC" signal="dram_data07" pin_num="N1" pin_signal="DRAM_DATA07"/>
+                  <pin peripheral="MMDC" signal="dram_data08" pin_num="H1" pin_signal="DRAM_DATA08"/>
+                  <pin peripheral="MMDC" signal="dram_data09" pin_num="F2" pin_signal="DRAM_DATA09"/>
+                  <pin peripheral="MMDC" signal="dram_data10" pin_num="K2" pin_signal="DRAM_DATA10"/>
+                  <pin peripheral="MMDC" signal="dram_data11" pin_num="J2" pin_signal="DRAM_DATA11"/>
+                  <pin peripheral="MMDC" signal="dram_data12" pin_num="J1" pin_signal="DRAM_DATA12"/>
+                  <pin peripheral="MMDC" signal="dram_data13" pin_num="F1" pin_signal="DRAM_DATA13"/>
+                  <pin peripheral="MMDC" signal="dram_data14" pin_num="E2" pin_signal="DRAM_DATA14"/>
+                  <pin peripheral="MMDC" signal="dram_data15" pin_num="E1" pin_signal="DRAM_DATA15"/>
+                  <pin peripheral="MMDC" signal="dram_data16" pin_num="V1" pin_signal="DRAM_DATA16"/>
+                  <pin peripheral="MMDC" signal="dram_data17" pin_num="W4" pin_signal="DRAM_DATA17"/>
+                  <pin peripheral="MMDC" signal="dram_data18" pin_num="Y4" pin_signal="DRAM_DATA18"/>
+                  <pin peripheral="MMDC" signal="dram_data20" pin_num="W3" pin_signal="DRAM_DATA20"/>
+                  <pin peripheral="MMDC" signal="dram_data19" pin_num="U2" pin_signal="DRAM_DATA19"/>
+                  <pin peripheral="MMDC" signal="dram_data21" pin_num="Y2" pin_signal="DRAM_DATA21"/>
+                  <pin peripheral="MMDC" signal="dram_data22" pin_num="U1" pin_signal="DRAM_DATA22"/>
+                  <pin peripheral="MMDC" signal="dram_data23" pin_num="V2" pin_signal="DRAM_DATA23"/>
+                  <pin peripheral="MMDC" signal="dram_data24" pin_num="A2" pin_signal="DRAM_DATA24"/>
+                  <pin peripheral="MMDC" signal="dram_data25" pin_num="D1" pin_signal="DRAM_DATA25"/>
+                  <pin peripheral="MMDC" signal="dram_data26" pin_num="C1" pin_signal="DRAM_DATA26"/>
+                  <pin peripheral="MMDC" signal="dram_data27" pin_num="D2" pin_signal="DRAM_DATA27"/>
+                  <pin peripheral="MMDC" signal="dram_data28" pin_num="C2" pin_signal="DRAM_DATA28"/>
+                  <pin peripheral="MMDC" signal="dram_data30" pin_num="B4" pin_signal="DRAM_DATA30"/>
+                  <pin peripheral="MMDC" signal="dram_data29" pin_num="B3" pin_signal="DRAM_DATA29"/>
+                  <pin peripheral="MMDC" signal="dram_data31" pin_num="A4" pin_signal="DRAM_DATA31"/>
+                  <pin peripheral="MMDC" signal="dram_cas_b" pin_num="J4" pin_signal="DRAM_CAS_B"/>
+                  <pin peripheral="MMDC" signal="dram_cs0_b" pin_num="H4" pin_signal="DRAM_CS0_B"/>
+                  <pin peripheral="MMDC" signal="dram_cs1_b" pin_num="D3" pin_signal="DRAM_CS1_B"/>
+                  <pin peripheral="MMDC" signal="dram_dqm0" pin_num="N2" pin_signal="DRAM_DQM0"/>
+                  <pin peripheral="MMDC" signal="dram_dqm1" pin_num="G2" pin_signal="DRAM_DQM1"/>
+                  <pin peripheral="MMDC" signal="dram_dqm2" pin_num="Y3" pin_signal="DRAM_DQM2"/>
+                  <pin peripheral="MMDC" signal="dram_dqm3" pin_num="A3" pin_signal="DRAM_DQM3"/>
+                  <pin peripheral="MMDC" signal="dram_odt0" pin_num="U3" pin_signal="DRAM_ODT0"/>
+                  <pin peripheral="MMDC" signal="dram_ras_b" pin_num="H5" pin_signal="DRAM_RAS_B"/>
+                  <pin peripheral="MMDC" signal="dram_reset" pin_num="D4" pin_signal="DRAM_RESET"/>
+                  <pin peripheral="MMDC" signal="dram_sdba0" pin_num="G3" pin_signal="DRAM_SDBA0"/>
+                  <pin peripheral="MMDC" signal="dram_sdba1" pin_num="P3" pin_signal="DRAM_SDBA1"/>
+                  <pin peripheral="MMDC" signal="dram_sdba2" pin_num="K4" pin_signal="DRAM_SDBA2"/>
+                  <pin peripheral="MMDC" signal="dram_sdcke0" pin_num="P5" pin_signal="DRAM_SDCKE0"/>
+                  <pin peripheral="MMDC" signal="dram_sdcke1" pin_num="E4" pin_signal="DRAM_SDCKE1"/>
+                  <pin peripheral="MMDC" signal="dram_sdclk0_n" pin_num="L1" pin_signal="DRAM_SDCLK0_N"/>
+                  <pin peripheral="MMDC" signal="dram_sdclk0_p" pin_num="K1" pin_signal="DRAM_SDCLK0_P"/>
+                  <pin peripheral="MMDC" signal="dram_sdqs0_n" pin_num="P2" pin_signal="DRAM_SDQS0_N"/>
+                  <pin peripheral="MMDC" signal="dram_sdqs0_p" pin_num="P1" pin_signal="DRAM_SDQS0_P"/>
+                  <pin peripheral="MMDC" signal="dram_sdqs1_n" pin_num="H2" pin_signal="DRAM_SDQS1_N"/>
+                  <pin peripheral="MMDC" signal="dram_sdqs1_p" pin_num="G1" pin_signal="DRAM_SDQS1_P"/>
+                  <pin peripheral="MMDC" signal="dram_sdqs2_n" pin_num="W1" pin_signal="DRAM_SDQS2_N"/>
+                  <pin peripheral="MMDC" signal="dram_sdqs2_p" pin_num="W2" pin_signal="DRAM_SDQS2_P"/>
+                  <pin peripheral="MMDC" signal="dram_sdqs3_n" pin_num="B2" pin_signal="DRAM_SDQS3_N"/>
+                  <pin peripheral="MMDC" signal="dram_sdqs3_p" pin_num="B1" pin_signal="DRAM_SDQS3_P"/>
+                  <pin peripheral="MMDC" signal="dram_sdwe_b" pin_num="J5" pin_signal="DRAM_SDWE_B"/>
+                  <pin peripheral="PMU" signal="dram_vref" pin_num="J3" pin_signal="DRAM_VREF"/>
+                  <pin peripheral="PMU" signal="dram_zqpad" pin_num="C5" pin_signal="DRAM_ZQPAD"/>
+                  <pin peripheral="ADC1" signal="in0" pin_num="Y14" pin_signal="ADC1_IN0"/>
+                  <pin peripheral="MMDC" signal="dram_addr03" pin_num="G5" pin_signal="DRAM_ADDR03"/>
+                  <pin peripheral="SJC" signal="mod" pin_num="R7" pin_signal="JTAG_MOD"/>
+                  <pin peripheral="SJC" signal="tck" pin_num="R9" pin_signal="JTAG_TCK"/>
+                  <pin peripheral="SJC" signal="tdi" pin_num="R10" pin_signal="JTAG_TDI"/>
+                  <pin peripheral="SJC" signal="tdo" pin_num="R8" pin_signal="JTAG_TDO"/>
+                  <pin peripheral="SJC" signal="tms" pin_num="T10" pin_signal="JTAG_TMS"/>
+                  <pin peripheral="PMU" signal="ngnd_kel0" pin_num="P13" pin_signal="NGND_KEL0"/>
+                  <pin peripheral="SJC" signal="trstb" pin_num="T9" pin_signal="JTAG_TRST_B"/>
+                  <pin peripheral="PMU" signal="vss, 40" pin_num="N7" pin_signal="VSS40"/>
+                  <pin peripheral="PMU" signal="vss, 39" pin_num="N3" pin_signal="VSS39"/>
+                  <pin peripheral="PMU" signal="vss, 38" pin_num="M17" pin_signal="VSS38"/>
+                  <pin peripheral="PMU" signal="vss, 50" pin_num="R17" pin_signal="VSS50"/>
+                  <pin peripheral="PMU" signal="vss, 49" pin_num="R5" pin_signal="VSS49"/>
+                  <pin peripheral="PMU" signal="vss, 48" pin_num="R3" pin_signal="VSS48"/>
+                  <pin peripheral="PMU" signal="vss, 60" pin_num="V3" pin_signal="VSS60"/>
+                  <pin peripheral="PMU" signal="vss, 59" pin_num="T20" pin_signal="VSS59"/>
+                  <pin peripheral="PMU" signal="vss, 58" pin_num="T19" pin_signal="VSS58"/>
+                  <pin peripheral="XTALOSC" signal="xtali" pin_num="V19" pin_signal="XTALI"/>
+                  <pin peripheral="XTALOSC" signal="xtalo" pin_num="V20" pin_signal="XTALO"/>
+               </pins>
             </function>
          </functions_list>
       </pins>

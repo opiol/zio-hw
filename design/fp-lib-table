@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "Library")(type "KiCad")(uri "/home/zbigniewo/zio-hw/zbop-klibs/footprints/zbop.pretty/Library.pretty")(options "")(descr ""))
+  (lib (name "zbop")(type "KiCad")(uri "/home/zbigniewo/zio-hw/zbop-klibs/footprints/zbop.pretty")(options "")(descr ""))
+)

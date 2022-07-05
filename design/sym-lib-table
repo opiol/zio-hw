@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "zbop")(type "KiCad")(uri "/home/zbigniewo/zio-hw/zbop-klibs/symbols/zbop.kicad_sym")(options "")(descr ""))
+)
