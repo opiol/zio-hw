@@ -92,14 +92,29 @@
     (path "/cac1d4d7-9414-49df-840a-404f32108ffd/3c06d670-d562-4d4a-b1b5-3e9aa5045c21"
       (reference "J?") (unit 1) (value "Jack-DC") (footprint "")
     )
-    (path "/cac1d4d7-9414-49df-840a-404f32108ffd/913874fb-8d67-48da-84e3-0e465f2359e4"
-      (reference "J?") (unit 1) (value "Conn_01x04") (footprint "")
+    (path "/cac1d4d7-9414-49df-840a-404f32108ffd/7abb8417-f170-4947-b395-3240b4cc14b4"
+      (reference "J?") (unit 1) (value "Conn_01x07") (footprint "")
     )
     (path "/cac1d4d7-9414-49df-840a-404f32108ffd/1c0bbf0d-0bb1-465a-9da6-eaa185824dd5"
       (reference "R?") (unit 1) (value "330R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
+    (path "/cac1d4d7-9414-49df-840a-404f32108ffd/1e405bd8-6787-4d26-b67b-20fca64b86de"
+      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/cac1d4d7-9414-49df-840a-404f32108ffd/2aaf8ee4-d073-4f45-8ebb-18aa37136e1b"
+      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/cac1d4d7-9414-49df-840a-404f32108ffd/34f14af2-e82a-434a-b6ac-2c585c994d8d"
+      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/cac1d4d7-9414-49df-840a-404f32108ffd/df08595f-86c0-4af6-bef0-005ee4c85cb2"
+      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
     (path "/cac1d4d7-9414-49df-840a-404f32108ffd/ecdc37aa-af5a-44f8-830c-932327b07c3a"
       (reference "R?") (unit 1) (value "330R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/cac1d4d7-9414-49df-840a-404f32108ffd/f5d7cfc9-f5e5-4c43-9d6b-e190993fcded"
+      (reference "R?") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/cac1d4d7-9414-49df-840a-404f32108ffd/6430dd2d-4e31-43c3-88c2-f7931a26459d"
       (reference "TP?") (unit 1) (value "TestPoint") (footprint "")
